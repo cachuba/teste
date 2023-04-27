@@ -1,0 +1,20 @@
+{
+  "name": "teste",
+  "version": "1.0.0",
+  "description": "Teste de repositório",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/cachuba/teste.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cachuba/teste/issues"
+  },
+  "homepage": "https://github.com/cachuba/teste#readme"
+}
