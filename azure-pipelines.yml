@@ -9,7 +9,7 @@ trigger:
 pool:
   name: Default
   demands:
-  - Hosted Agent
+  - 'agent.os -equals ub-nodejs'
 
 steps:
 - script: |
