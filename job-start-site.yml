@@ -11,5 +11,5 @@ pool:
 steps:
 - script: |
     echo "Iniciando os serviços do site"
-    'cd /moondragoon/SiteBlueez/blueez/ && sudo npm run pm2-next'
+    cd /moondragoon/SiteBlueez/blueez/ && sudo npm run pm2-next
   displayName: 'Iniciando o site'
