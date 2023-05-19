@@ -9,7 +9,8 @@ trigger:
 pool:
   name: Default
   demands:
-  - 'Agent.Name --equals ub-nodejs'
+  - 'agent.os -equals linux, Agent.Version -gtVersion 2.163.1'
+
 steps:
 - script: |
     echo "Compiling the code..."
