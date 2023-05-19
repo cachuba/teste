@@ -9,7 +9,7 @@ trigger:
 pool:
   name: Default
   demands:
-  - 'agent.os -equals linux, Agent.Version -gtVersion 2.163.1'
+  - 
 
 steps:
 - script: |
