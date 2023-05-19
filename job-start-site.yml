@@ -1,0 +1,15 @@
+# job-start-site
+# Pipeline que inicia os serviços do site, caso o
+# servidor tenha sido desligado com o site funcionando.
+
+trigger:
+- main
+
+pool:
+    name: Default
+
+steps:
+- script: |
+    echo "Iniciando os serviços do site"
+    'cd /moondragoon/SiteBlueez/blueez/ && sudo npm run pm2-next'
+  displayName: 'Iniciando o site'
